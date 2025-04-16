@@ -23,5 +23,13 @@ This project is a Python-based tool that automates the management of Google Driv
 ## Setup
 **Install Dependencies**
 Install the required Python packages using pip:
-``` bash
+``` 
    pip install google-api-python-client google-auth-oauthlib google-auth
+``` 
+
+## Configure Google Cloud Service Account
+
+-Create a service account in your GCP project.
+-Enable the Google Drive API and Google Sheets API.
+-Download the service account JSON key file and save it as **service_account.json** in the project root directory.
+-Ensure the service account has the necessary permissions (https://www.googleapis.com/auth/drive, https://www.googleapis.com/auth/spreadsheets).
