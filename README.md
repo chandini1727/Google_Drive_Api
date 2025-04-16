@@ -24,4 +24,4 @@ This project is a Python-based tool that automates the management of Google Driv
 **Install Dependencies**
 Install the required Python packages using pip:
 ``` bash
-   pip install google-api-python-client google-auth-oauthlib google-auth ```
+   pip install google-api-python-client google-auth-oauthlib google-auth
